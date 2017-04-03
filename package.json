@@ -1,0 +1,49 @@
+{
+  "name": "namae.js-web-api",
+  "version": "0.0.14",
+  "description": "Web API for my stuff",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec node src/server.js",
+    "start": "node src/server.js",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "rest",
+    "minecraft",
+    "yrel",
+    "bot",
+    "discord",
+    "league",
+    "nomsy"
+  ],
+  "author": "Brandan (Nomsy) <me@nomsy.net>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "common-tags": "^1.4.0",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "express-winston": "github:bithavoc/express-winston",
+    "glob": "^7.1.1",
+    "pg": "^6.1.4",
+    "pg-hstore": "^2.3.2",
+    "redis": "^2.7.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "restify": "^4.3.0",
+    "sequelize": "^3.30.2",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  }
+}
